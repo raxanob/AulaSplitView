@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		E01B0BF8245A0BBF0057D21A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01B0BF7245A0BBF0057D21A /* AppDelegate.swift */; };
 		E01B0BFA245A0BBF0057D21A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01B0BF9245A0BBF0057D21A /* SceneDelegate.swift */; };
-		E01B0BFC245A0BBF0057D21A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01B0BFB245A0BBF0057D21A /* ViewController.swift */; };
 		E01B0BFF245A0BBF0057D21A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01B0BFD245A0BBF0057D21A /* Main.storyboard */; };
 		E01B0C01245A0BC10057D21A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E01B0C00245A0BC10057D21A /* Assets.xcassets */; };
 		E01B0C04245A0BC10057D21A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E01B0C02245A0BC10057D21A /* LaunchScreen.storyboard */; };
+		E01B0C0E245A10090057D21A /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01B0C0D245A10090057D21A /* MasterViewController.swift */; };
+		E01B0C10245A104C0057D21A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01B0C0F245A104C0057D21A /* DetailViewController.swift */; };
+		E01B0C12245A14720057D21A /* Students.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01B0C11245A14720057D21A /* Students.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E01B0BF4245A0BBF0057D21A /* AulaSplitView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AulaSplitView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E01B0BF7245A0BBF0057D21A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E01B0BF9245A0BBF0057D21A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E01B0BFB245A0BBF0057D21A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E01B0BFE245A0BBF0057D21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E01B0C00245A0BC10057D21A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E01B0C03245A0BC10057D21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E01B0C05245A0BC10057D21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E01B0C0D245A10090057D21A /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		E01B0C0F245A104C0057D21A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E01B0C11245A14720057D21A /* Students.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Students.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +60,14 @@
 		E01B0BF6245A0BBF0057D21A /* AulaSplitView */ = {
 			isa = PBXGroup;
 			children = (
+				E01B0C0D245A10090057D21A /* MasterViewController.swift */,
+				E01B0C0F245A104C0057D21A /* DetailViewController.swift */,
+				E01B0C11245A14720057D21A /* Students.swift */,
 				E01B0BF7245A0BBF0057D21A /* AppDelegate.swift */,
 				E01B0BF9245A0BBF0057D21A /* SceneDelegate.swift */,
-				E01B0BFB245A0BBF0057D21A /* ViewController.swift */,
 				E01B0BFD245A0BBF0057D21A /* Main.storyboard */,
-				E01B0C00245A0BC10057D21A /* Assets.xcassets */,
 				E01B0C02245A0BC10057D21A /* LaunchScreen.storyboard */,
+				E01B0C00245A0BC10057D21A /* Assets.xcassets */,
 				E01B0C05245A0BC10057D21A /* Info.plist */,
 			);
 			path = AulaSplitView;
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E01B0BFC245A0BBF0057D21A /* ViewController.swift in Sources */,
+				E01B0C0E245A10090057D21A /* MasterViewController.swift in Sources */,
+				E01B0C10245A104C0057D21A /* DetailViewController.swift in Sources */,
+				E01B0C12245A14720057D21A /* Students.swift in Sources */,
 				E01B0BF8245A0BBF0057D21A /* AppDelegate.swift in Sources */,
 				E01B0BFA245A0BBF0057D21A /* SceneDelegate.swift in Sources */,
 			);
